@@ -1,0 +1,16 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          your-client-id:
+            client-id: your-client-id
+            client-secret: your-client-secret
+            redirect-uri: http://localhost:8080/login/oauth2/code/your-client-id
+            scope: openid,profile,email
+        provider:
+          your-authorization-server:
+            authorization-uri: http://localhost:8081/oauth/authorize
+            token-uri: http://localhost:8081/oauth/token
+            user-info-uri: http://localhost:8081/oauth/userinfo
+            user-name-attribute: sub

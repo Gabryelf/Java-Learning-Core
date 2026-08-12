@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="assertj-core-3.23.1 (2)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/assertj-core-3.23.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/junit-jupiter-api-5.9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/junit-jupiter-params-5.9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/junit-platform-commons-1.9.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
